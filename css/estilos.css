@@ -26,3 +26,18 @@ a{
 .card h1{
     font-weight: 700;
 }
+.tituloInformacion{
+    color: #1d5853;
+}
+.footer{
+    background-color: #46A69A;
+    color: aliceblue;
+    width: 100%;
+}
+.footer a{
+    color: aliceblue;
+    margin-left: 20px;
+}
+h4{
+    margin-left: 20px;
+}
