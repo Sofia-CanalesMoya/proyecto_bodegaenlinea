@@ -44,33 +44,39 @@
           </nav>
     </header>
     <main>
-      <div class="container d-flex flex-column text-start lh-1 p-3 tituloInformacion">
-        <h1 class="fw-bold">Contacto</h1>
-        <h2>Escríbenos</h2>
-        <p>Llena el siguiente formulario y nos comunicaremos contigo a la brevedad.</p>
+      <div class="d-xl-flex align-items-lg-center justify-content-xl-end">
+        <section class="flex-xl-column col-xl-6">
+          <div class="container d-flex flex-column text-start lh-1 p-3 tituloInformacion">
+            <h1 class="fw-bold">Contacto</h1>
+            <h2>Escríbenos</h2>
+            <p>Llena el siguiente formulario y nos comunicaremos contigo a la brevedad.</p>
+          </div>
+          <form class="container d-flex row justify-content-start">
+            <div class="form-group col-xl-6">
+              <label for="formGroupExampleInput">Nombre*</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre" required>
+            </div>
+            <div class="form-group col-xl-6">
+              <label for="exampleInputEmail1">Correo*</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="hola@gmail.com" required">
+            </div>
+            <div class="form-group col-xl-6">
+              <label for="exampleFormControlTextarea1">Consulta</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mt-3 mb-3">
+              <input class="btn button" type="submit" value="Enviar">
+              <input class="btn button" type="reset" value="Limpiar">
+            </div>
+          </form>
+        </section>
+        <section class="container d-flex flex-column justify-content-start col-xl-6">
+          <h3 class="text-start">Mapa</h3>
+          <div class="pb-xl-3 m-xl-1">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.96431855872!2d-70.6102853!3d-33.4241746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf65f1636db5%3A0x46c1444455843eba!2sGuardia%20Vieja%20181%2C%20Departamento%20506%2C%207510186%20Santiago%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1699362213198!5m2!1ses-419!2scl" width="600" height="450" style="border-radius:20px;" allowfullscreen="" loading="lazy cl" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </section>
       </div>
-      <form class="container d-flex row justify-content-start">
-        <div class="form-group col-xl-6">
-          <label for="formGroupExampleInput">Nombre*</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre" required>
-        </div>
-        <div class="form-group col-xl-6">
-          <label for="exampleInputEmail1">Correo*</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="hola@gmail.com" required">
-        </div>
-        <div class="form-group col-xl-6">
-          <label for="exampleFormControlTextarea1">Consulta</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="mt-3 mb-3">
-          <input class="btn button" type="submit" value="Enviar">
-          <input class="btn button" type="reset" value="Limpiar">
-        </div>
-      </form>
-      <section class="container d-flex flex-column justify-content-start">
-        <h3 class="text-start">Mapa</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.320405524891!2d-71.26677162498382!3d-29.941461226507574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691cbcaae7f67bd%3A0x6247a77c89f760e6!2sCarmen%20Quiroga%20481%2C%201710598%20La%20Serena%2C%20Coquimbo!5e0!3m2!1ses-419!2scl!4v1695862988738!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </section>
     </main>
     <footer>
       <section class="footer container-fluid col-xl-12 d-xl-flex align-items-xl-center justify-content-xl-between">  
