@@ -1,0 +1,11 @@
+.card{
+    background-image: url(../assets/img/fondo-index.png);
+    color: $color_primario; 
+    text-align: center;
+    .card h1{
+    font-weight: 700;
+    }
+}
+.tituloInformacion{
+    color: $color_primario;
+}

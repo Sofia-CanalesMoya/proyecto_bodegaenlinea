@@ -1,0 +1,13 @@
+.footer{
+    background-color: $color_terciario;
+    color: $color_secundario;
+    width: map-get($porcentajes, 100);
+    a{
+    color: $color_secundario;
+    margin-left:$medida_20px;
+    }
+}
+
+h4{
+    margin-left:$medida_20px;
+}

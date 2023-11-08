@@ -1,0 +1,5 @@
+@mixin botones ($color, $fondo, $bordeLeft){
+    color:$color;
+    background-color: $fondo;
+    border-left-color: $bordeLeft;
+}
