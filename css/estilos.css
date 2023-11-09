@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: linear-gradient(to bottom, #e7fbf9, #dff8f5, #d7f5f2, #cff1ee, #c7eeeb, #c1ebe7, #bae7e3, #b4e4df, #aedfda, #a7dbd5, #a1d6d0, #9bd2cb);
+}
+
 .boton {
   color: aliceblue;
   background-color: #46A69A;
@@ -24,7 +28,10 @@
   border-left-color: #1d5853;
 }
 
-a {
+.navegar {
+  background-image: linear-gradient(to top, #e7fbf9, #d6f2ef, #c4e8e5, #b3dfda, #a1d6d0);
+}
+.navegar a {
   text-decoration: none;
   color: #1d5853;
 }
