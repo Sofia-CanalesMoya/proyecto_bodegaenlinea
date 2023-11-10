@@ -28,8 +28,24 @@ body {
   border-left-color: #1d5853;
 }
 
+@keyframes deslizar {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
 .navegar {
   background-image: linear-gradient(to top, #e7fbf9, #d6f2ef, #c4e8e5, #b3dfda, #a1d6d0);
+}
+.navegar a .logo {
+  animation-name: deslizar;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 .navegar a {
   text-decoration: none;
@@ -49,13 +65,17 @@ body {
   color: #1d5853;
 }
 
-.contenedorPlan {
+.contenedorPlan, .contenedorPlanDos {
   transform: scale(0.9);
-  transition: transform 1s;
+  transition: transform 1.5s;
 }
-.contenedorPlan:hover {
+.contenedorPlan:hover, .contenedorPlanDos:hover {
   transform: scale(1);
   box-shadow: 0 4px 8px 0 rgba(136, 136, 136, 0.5960784314);
+}
+
+.contenedorPlanDos {
+  transform: scale(0.8);
 }
 
 .footer {

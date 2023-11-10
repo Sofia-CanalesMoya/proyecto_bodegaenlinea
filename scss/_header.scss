@@ -1,7 +1,23 @@
+@keyframes deslizar{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
 .navegar{
     background-image: linear-gradient(to top, #e7fbf9, #d6f2ef, #c4e8e5, #b3dfda, #a1d6d0);
-    a{
-        text-decoration: none;
-        color: $color_primario;
-    }
+        a .logo{
+            animation-name: deslizar;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        a{
+         text-decoration: none;
+            color: $color_primario;
+        }
 }
