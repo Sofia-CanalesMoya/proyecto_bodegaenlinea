@@ -1,0 +1,8 @@
+.contenedorPlan {
+    transform: scale(0.9);
+    transition: transform 1s;
+        &:hover{
+             transform: scale(1);
+             box-shadow: 0 4px 8px 0 #88888898; 
+        }
+}

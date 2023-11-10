@@ -49,17 +49,25 @@ body {
   color: #1d5853;
 }
 
+.contenedorPlan {
+  transform: scale(0.9);
+  transition: transform 1s;
+}
+.contenedorPlan:hover {
+  transform: scale(1);
+  box-shadow: 0 4px 8px 0 rgba(136, 136, 136, 0.5960784314);
+}
+
 .footer {
   background-color: #46A69A;
   color: aliceblue;
   width: 100%;
 }
-.footer a {
-  color: aliceblue;
+.footer h4 {
   margin-left: 20px;
 }
-
-h4 {
+.footer a {
+  color: aliceblue;
   margin-left: 20px;
 }
 
