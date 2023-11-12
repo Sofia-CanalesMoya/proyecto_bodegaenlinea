@@ -44,7 +44,7 @@ body {
 }
 .navegar a .logo {
   animation-name: deslizar;
-  animation-duration: 5s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
 }
 .navegar a {

@@ -11,13 +11,13 @@
 }
 .navegar{
     background-image: linear-gradient(to top, #e7fbf9, #d6f2ef, #c4e8e5, #b3dfda, #a1d6d0);
-        a .logo{
-            animation-name: deslizar;
-            animation-duration: 5s;
-            animation-iteration-count: infinite;
-        }
-        a{
-         text-decoration: none;
-            color: $color_primario;
-        }
+    a .logo{
+        animation-name: deslizar;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+    a{
+        text-decoration: none;
+        color: $color_primario;
+    }
 }
