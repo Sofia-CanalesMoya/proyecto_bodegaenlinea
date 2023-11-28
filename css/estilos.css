@@ -65,19 +65,27 @@ body {
   color: #1d5853;
 }
 
-.contenedorPlan, .contenedorPlanDos {
-  transform: scale(0.9);
-  transition: transform 1.5s;
-}
-.contenedorPlan:hover, .contenedorPlanDos:hover {
+.contenedorPrincipal, .sectionQueEs .contenedorPlan, .contenedorPlanDos {
   transform: scale(1);
+  transition: transform 1.5s;
+  flex: 1;
+}
+.contenedorPrincipal:hover, .sectionQueEs .contenedorPlan:hover, .contenedorPlanDos:hover {
+  transform: scale(1.1);
   box-shadow: 0 4px 8px 0 rgba(136, 136, 136, 0.5960784314);
 }
 
 .contenedorPlanDos {
-  transform: scale(0.8);
+  transform: scale(1);
 }
 
+.sectionCaracteristicas {
+  gap: 8px;
+}
+
+.sectionQueEs {
+  gap: 8px;
+}
 .footer {
   background-color: #46A69A;
   color: aliceblue;

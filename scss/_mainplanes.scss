@@ -1,12 +1,25 @@
-.contenedorPlan {
-    transform: scale(0.9);
+.contenedorPrincipal {
+    transform: scale(1);
     transition: transform 1.5s;
+    flex: 1;
         &:hover{
-             transform: scale(1);
+             transform: scale(1.1);
              box-shadow: 0 4px 8px 0 #88888898; 
         }
 }
+
 .contenedorPlanDos {
-    @extend .contenedorPlan;
-    transform: scale(0.8);
+    @extend .contenedorPrincipal;
+    transform: scale(1);
+}
+
+.sectionCaracteristicas{
+    gap: 8px;
+}
+
+.sectionQueEs{
+    gap: 8px;
+    .contenedorPlan {
+        @extend .contenedorPrincipal;
+    }
 }
